@@ -648,14 +648,47 @@
               "optional": [
                 "control",
                 "option",
-                "command",
-                "shift"
+                "command"
               ]
             }
           },
           "to": [
             {
               "key_code": "delete_or_backspace"
+            }
+          ],
+          "conditions": [
+            {
+              "type": "keyboard_type_if",
+              "keyboard_types": [
+                "jis"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "Change Shift + non_us_pound from } to delete_forward",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "non_us_pound",
+            "modifiers": {
+              "optional": [
+                "control",
+                "option",
+                "command"
+              ],
+              "mandatory": [
+                "shift"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "delete_forward"
             }
           ],
           "conditions": [
