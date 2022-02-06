@@ -3,7 +3,7 @@ Karabiner-Elementを使用してJIS配列のHHKBをUS配列にリマップする
 
 Use Karabiner-Element to remap JIS-arranged HHKB to US-arranged HHKB.
 
-![image](https://user-images.githubusercontent.com/96813435/152672411-cbea991d-132f-4456-997f-59ba40c800cc.png)
+![image](https://user-images.githubusercontent.com/96813435/152673376-6e9329a6-af9c-4e2a-8da7-ed10f7123f9f.png)
 
 # 詳細
 各種記号をUS配列キーボードの位置にリマップする。
@@ -16,3 +16,4 @@ Use Karabiner-Element to remap JIS-arranged HHKB to US-arranged HHKB.
 
 * Enterキーの左隣の閉じかっこ ] キー 
   * backspaceキーに変換 
+  * Shift押しながらでDeleteキーに変換
