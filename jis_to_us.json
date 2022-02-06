@@ -394,6 +394,74 @@
       ]
     },
     {
+      "description": "Change [ to ]",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "close_bracket",
+            "modifiers": {
+              "optional": [
+                "control",
+                "option",
+                "command"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "backslash"
+            }
+          ],
+          "conditions": [
+            {
+              "type": "keyboard_type_if",
+              "keyboard_types": [
+                "jis"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "Change shift + [ from { to }",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "close_bracket",
+            "modifiers": {
+              "optional": [
+                "control",
+                "option",
+                "command"
+              ],
+              "mandatory": [
+                "shift"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "backslash",
+              "modifiers": [
+                "left_shift"
+              ]
+            }
+          ],
+          "conditions": [
+            {
+              "type": "keyboard_type_if",
+              "keyboard_types": [
+                "jis"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
       "description": "Change shift + ; from + to :",
       "manipulators": [
         {
