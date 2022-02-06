@@ -638,7 +638,7 @@
       ]
     },
     {
-      "description": "Change non_us_pound from ] to return_or_enter",
+      "description": "Change non_us_pound from ] to delete_or_backspace",
       "manipulators": [
         {
           "type": "basic",
@@ -655,7 +655,7 @@
           },
           "to": [
             {
-              "key_code": "return_or_enter"
+              "key_code": "delete_or_backspace"
             }
           ],
           "conditions": [
